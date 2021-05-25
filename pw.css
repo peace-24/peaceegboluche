@@ -1,0 +1,80 @@
+body {
+    font-family: sans-serif;
+    line-height: 2.5em;
+    background-image: url("pattern3.png");
+}
+.our-content {
+    max-width: 600px;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+h1 h2 {
+    font-family: sans-serif;
+    font-weight: 900;
+    max-width: 600px;
+    margin: auto;
+    line-height: 1.3cm;
+    padding-top: 20px;
+}
+
+button:hover {
+    background-color: orange;
+}
+button{
+    background-color: rgb(113, 113, 179);
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+/* 
+li a  {
+    float: left;
+} */
+li a {
+     display: block;
+     color: white;
+     text-align: center;
+     padding: 0px 16px ;
+     text-decoration: none;
+     float: left;
+     /* padding-top: 15px; */
+}
+a:hover {
+    background-color: grey;
+    color: blue;
+}
+li a:active {
+    background-color: orange;
+}
+.active {
+    background-color: orange;
+}                                                       
+.but{
+    border-radius: 10px;
+    width: 100px;
+}
+.but:hover{
+    background-color: orange;
+}
+/* .fieldset{
+    
+} */
+.marquee{
+    background-color: orange;
+    width: 600px;
+    height: 70px;
+    text-align: center;
+    margin: auto;
+    border-radius: 15px;
+    padding-top: 10px;
+}
+
+.form {
+    text-align: center;
+}
